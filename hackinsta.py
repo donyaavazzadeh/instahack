@@ -37,7 +37,7 @@ class Instabrute():
 
 
 		UsePorxy = Input('[*] Do you want to use proxy (y/n): ').upper()
-		if (UsePorxy == 'Y' or UsePorxy == 'YES'):
+		if (UsePorxy == 'N' or UsePorxy == 'NO') :
 			self.randomProxy()
 
 
